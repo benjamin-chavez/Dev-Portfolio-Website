@@ -45,13 +45,13 @@
               <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio-section" class="nav-link">Portfolio</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#my-story-section" class="nav-link">My Story</a>
+              <a href="#my-story" class="nav-link">My Story</a>
             </li>
             <li class="nav-item">
-              <a href="#contact-section" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -64,62 +64,82 @@
     </section>
 
     <!-- PORTFOLIO SECTION -->
-    <section id="portfolio-section" class="text-center py-5">
+    <section id="portfolio" class="text-center py-5">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="mb-5">
+            <div class="mb-4">
               <h2 class="section-title font-alt">Portfolio</h2>
               <p class="section-text text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                ipsa aut, quisquam dicta quas voluptate!
+                A selection of my work as a full stack Developer in The U.S. and
+                Germany.
               </p>
             </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-4 mb-3">
-            <div class="card">
+          <div class="col-xs mb-3">
+            <div class="card"><a href="https://www.chip-in.site/" target="_blank">
               <img
                 src="/img/Chip-In.png"
-                class="card-img-top"
+                class="card-img img-fluid"
                 alt="Chip-In Website Preview"
               />
-              <!-- <div class="card-body">
-                <h3>Chip-In</h3>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Sapiente!
-                </p>
-              </div> -->
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <div class="card-body">
-                <h3>Amin Chavez Artist Website</h3>
-                <p class="section-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Sapiente!
-                </p>
+              <div class="card-img-overlay card-body">
+                <div>
+                  <h2 class="card-title">Chip-In</h2>
+                  <div class="container">
+                    <p class="card-text">
+                      A platform to connect individuals and charities with the goal of simplifying the search for community service opportunites.
+                    </p>
+                  </div>
+
+                </div>
               </div>
             </div>
+          </a>
           </div>
-          <div class="col-md-4">
-            <div class="card">
+
+          <div class="col-xs mb-3">
+            <div class="card"><a href="aminchavez.com" target="_blank">
               <img
-                src="/img/intiMASKy.png"
-                class="card-img-top"
+                src="/img/aminchavez.com.png"
+                class="card-img img-fluid"
                 alt="intiMasky Website Preview"
               />
-              <!-- <div class="card-body">
-                <h3>intiMASKy</h3>
-                <p class="text-muted">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Sapiente!
-                </p>
-              </div> -->
+              <div class="card-img-overlay card-body">
+                <div>
+                  <h2 class="card-title">Amin Chavez - DJ & Producer</h2>
+                  <div class="container">
+                    <p class="card-text">
+                      Artist website for my eletronic music alias: Amin Chavez.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+
+          <div class="col-xs">
+            <div class="card"><a href="https://intimasky.herokuapp.com/" target="_blank">
+              <img
+                src="/img/intiMASKy.png"
+                class="image-dude card-img img-fluid"
+                alt="intiMasky Website Preview"
+              />
+              <div class="card-img-overlay card-body">
+                <div>
+                  <h2 class="card-title">intiMASKy</h2>
+                  <div class="container">
+                    <p class="card-text">
+                      An online rental marketplace for individuals to find and post fetish Masks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
             </div>
           </div>
         </div>
@@ -130,7 +150,7 @@
     <section class="parallax-image"></section>
 
     <!-- MY STORY SECTION -->
-    <section id="my-story-section" class="text-center py-5">
+    <section id="my-story" class="text-center py-5">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -150,16 +170,23 @@
     <section class="parallax-image"></section>
 
     <!-- CONTACT/FOOTER -->
-    <section id="contact-section" class="text-center py-5">
+    <section id="contact" class="text-center py-5">
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="mb-5">
+            <div class="">
               <h2 class="section-title font-alt">Contact</h2>
               <ul class="list-inline">
+                <li class="list-inline-item">
+                  <img
+                    id="footer-img"
+                    src="/img/Ben-thumbnail.jpeg"
+                    alt="Benjamin Chavez"
+                  />
+                </li>
                 <li class="list-inline-item contact-link">
                   <a href="https://github.com/bmchavez" target="_blank">
-                    <i class="fab fa-github"></i
+                    <i class="fab fa-github contact-icon"></i
                   ></a>
                 </li>
                 <li class="list-inline-item contact-link">
@@ -167,12 +194,12 @@
                     href="https://www.linkedin.com/in/benjaminchavez/"
                     target="_blank"
                   >
-                    <i class="fab fa-linkedin"></i
+                    <i class="fab fa-linkedin contact-icon"></i
                   ></a>
                 </li>
                 <li class="list-inline-item contact-link">
                   <a href="mailto: ben.m.chavez@gmail.com">
-                    <i class="fas fa-envelope"></i
+                    <i class="fa fa-envelope contact-icon"></i
                   ></a>
                 </li>
               </ul>
