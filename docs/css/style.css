@@ -1,6 +1,5 @@
 body {
   background: #ecedfa;
-  /* background: rgb(240, 240, 240) */
   color: rgb(20, 20, 20);
   font-family: 'Open Sans', arial, sans-serif;
 }
@@ -15,30 +14,6 @@ body {
   background-position: 50% 45%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-.banner-text {
-  justify-content: center;
-  display: flex;
-  /* align-items: end; */
-  height: 100vh;
-}
-
-.btn {
-  min-width: 120px;
-  background-color: rgba(0, 0, 0, 0.212);
-  border: #fff solid 0.5px;
-}
-
-.btn a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn:hover {
-  min-width: 120px;
-  background-color: rgba(167, 167, 167, 0.212);
-  border: #fff solid 0.5px;
 }
 
 .font-alt-no-space {
@@ -68,12 +43,36 @@ body {
   text-align: justify;
 }
 
+.banner-text {
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+}
+
+.btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  min-width: 120px;
+  background-color: rgba(0, 0, 0, 0.212);
+  border: #fff solid 0.5px;
+}
+
+.btn:hover {
+  min-width: 120px;
+  background-color: rgba(167, 167, 167, 0.212);
+  border: #fff solid 0.5px;
+}
+
 .parallax-image {
   /* #my-story { */
   min-height: 150px;
 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(/img/parallax-img.jpg);
+    /* url(/img/parallax-img.jpg); */
+      url(https://res.cloudinary.com/caplan/image/upload/ninja-images/ninja-cropped.png);
   /* background-repeat: no-repeat; */
   background-attachment: fixed;
   /* opacity: 0.5; */
