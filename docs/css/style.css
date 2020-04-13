@@ -75,6 +75,11 @@ body {
   outline: none !important;
 }
 
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
 #parallax-image {
   /* #my-story { */
   min-height: 150px;
