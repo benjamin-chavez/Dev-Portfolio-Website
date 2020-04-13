@@ -28,6 +28,14 @@ body {
   letter-spacing: 0.2em;
 }
 
+.card-title {
+  font-family: Dosis, arial, sans-serif;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.1em;
+  /* font-size: 20px;
+  font-weight: 400; */
+}
+
 .section-title {
   font-size: 20px;
   font-weight: 400;
@@ -96,6 +104,7 @@ body {
 .card:hover .card-img-overlay {
   color: #fff;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   transition-duration: 0.6s;
 }
 
