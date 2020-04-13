@@ -68,10 +68,14 @@
             </h1>
             <p class="text-white text-center">Full Stack Developer</p>
             <ul
-              class="text-white text-center list-unstyled justify-content-around"
+              class="text-white text-center list-unstyled justify-content-around list-inline"
             >
-              <li class="btn mx-3"><a href="#my-story">My Story</a></li>
-              <li class="btn mx-3"><a href="#contact">Contact</a></li>
+              <li class="list-inline-item">
+                <a class="btn mx-3" href="#my-story">My Story</a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn mx-3" href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -170,9 +174,19 @@
 
     <!-- PARALLAX IMAGE 1 -->
     <section id="parallax-image">
-      <div class="container-fluid p-0">
+      <!-- <div class="container-fluid p-0">
         <div class="parallax-image"></div>
-      </div>
+      </div> -->
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-4">
+              <!-- <h2 class="section-title font-alt pt-3">Contact</h2> -->
+            </div>
+          </div>
+        </div>
     </section>
 
     <!-- MY STORY SECTION -->
@@ -357,8 +371,32 @@
       // Init Scrollspy
       $('body').scrollspy({ target: '#main-nav' });
 
-      // Add smooth scrolling
+      // Add smooth scrolling to Navbar
       $('#main-nav a').on('click', function (e) {
+        // Check for a hash value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          e.preventDefault();
+
+          // Store hash
+          const hash = this.hash;
+
+          // Animate smooth scroll
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      // Add smooth scrolling to banner buttons
+      $('#home-section a').on('click', function (e) {
         // Check for a hash value
         if (this.hash !== '') {
           // Prevent default behavior
