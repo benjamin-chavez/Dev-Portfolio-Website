@@ -379,6 +379,31 @@
           );
         }
       });
+
+      // Add smooth scrolling for banner buttons
+      $('#home-section a').on('click', function (event) {
+        console.log('test');
+        // Check for a hash value
+        if (this.hash !== '') {
+          // Prevent default behavior
+          event.preventDefault();
+
+          // Store hash
+          const hash = this.hash;
+
+          // Animate smooth scroll
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            900,
+            function () {
+              // Add hash to URL after scroll
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
     </script>
   </body>
 </html>
