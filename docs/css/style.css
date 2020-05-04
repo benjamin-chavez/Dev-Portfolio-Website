@@ -171,4 +171,9 @@ body {
   #contact {
     background-attachment: fixed;
   }
+
+  #main-nav {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
 }
