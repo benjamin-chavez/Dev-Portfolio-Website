@@ -52,6 +52,14 @@ body {
   text-align: justify;
 }
 
+.section-text-white {
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.7;
+  text-align: justify;
+}
+
 .banner-text {
   justify-content: center;
   display: flex;
@@ -126,6 +134,12 @@ body {
   align-items: center;
   height: 100%;
 }
+
+.skill-item {
+  
+  
+}
+
 
 #contact {
   color: white;
