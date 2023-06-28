@@ -7,8 +7,10 @@ body {
 #home-section {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
-    url('https://res.cloudinary.com/dyy8g76av/image/upload/v1586752150/Banner-image-cropped_zbcbek.png');
+  /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+    url('https://res.cloudinary.com/dyy8g76av/image/upload/v1586752150/Banner-image-cropped_zbcbek.png'); */
+     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+    url('../img/assets/Banner-image-cropped.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 45%;
@@ -93,8 +95,10 @@ body {
   /* #my-story { */
   min-height: 150px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/assets/parallax-img.jpg');
   /* background-repeat: no-repeat; */
   /* background-attachment: fixed; */
   /* opacity: 0.5; */
@@ -136,16 +140,19 @@ body {
 }
 
 .skill-item {
-  
-  
+
+
 }
 
 
 #contact {
   color: white;
   /* background: #04080b; */
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://res.cloudinary.com/dyy8g76av/image/upload/v1586752138/parallax-img_ffefgm.jpg); */
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../img/assets/parallax-img.jpg');
+
   background-position: 10% 20%;
 }
 
