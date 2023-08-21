@@ -137,17 +137,17 @@ body {
 
 .btn-portfolio:hover {
   background-color: rgba(167, 167, 167, 0.212);
-  border: #fff solid 0.5px !important;
+  border: #fff solid 0.5px;
   color: #fff;
   text-decoration: none;
   outline: none !important;
 }
 
-.btn-portfolio a {
+/* .btn-portfolio a {
   text-decoration: none;
   color: white;
-  border: #fff solid 0.5px !important;
-}
+  border: #fff solid 0.5px;
+} */
 
 .card-img-overlay {
   color: transparent;
