@@ -125,6 +125,7 @@ body {
 }
 
 .btn-portfolio {
+  width: 60px;
   visibility: hidden;
   opacity: 0;
   background-color: transparent;
