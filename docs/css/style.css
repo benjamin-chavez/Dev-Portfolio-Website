@@ -129,24 +129,21 @@ body {
   visibility: hidden;
   opacity: 0;
   background-color: transparent;
-  /* border: #fff solid 0.5px; */
   color: #b9b9b9;
   text-decoration: none;
   outline: none !important;
 }
 
 .btn-portfolio:hover {
-  /* background-color: rgba(167, 167, 167, 0.212); */
-  /* border: #fff solid 0.5px; */
   color: #fff;
   text-decoration: none;
   outline: none !important;
 }
-/*
+
 .btn-portfolio a {
   text-decoration: none;
   color: white;
-} */
+}
 
 .card-img-overlay {
   color: transparent;
